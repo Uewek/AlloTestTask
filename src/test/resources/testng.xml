@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--   Your framework should be able to execute tests in multiple threads in at least
+       Google Chrome and Mozilla Firefox browsers.                 /-->
+<suite name="All Tests Suite" parallel="methods" thread-count="4">
+    <test name="AlloSearchWithoutPriceTest">
+        <classes>
+            <class name="tests.AlloSearchTest"/>
+        </classes>
+    </test>
+    <test name="AlloSearchFiltredByPriceTest">
+        <classes>
+            <class name="tests.AlloSearchResultsFiltredByPriceTest"/>
+        </classes>
+    </test>
+</suite>
