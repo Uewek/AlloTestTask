@@ -31,6 +31,7 @@ Additional:
 The following tasks are optional and will not affect the final grade of your work but
 are considered a plus:
 ● Add Allure as a reporting tool for test results to your framework.
+
 ● Add the ability to change the browser on which tests will be executed from the
 command line.
 
