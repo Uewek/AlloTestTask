@@ -4,11 +4,16 @@
 https://rozetka.com.ua/ua/. (Rozetka upgrade security, so I do task on https://allo.ua)
 ● Your framework should be able to execute tests in multiple threads in at least
 Google Chrome and Mozilla Firefox browsers.
+
 ● Ensure that your framework is easily configurable to change the execution
 platform (OS: Windows, MacOS, Linux) and test execution browser.
+
 ● Please use a reliable elements’ location strategy.
+
 ● Implement the Page Object pattern for the test automation structure.
+
 ● Use any compatible with the Selenium programming language you prefer.
+
 
 Steps to automate:
 I. Search for a product
