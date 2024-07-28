@@ -47,7 +47,7 @@ on your computer must be installed Java and Maven!
 
     CLI Commands
 1. Command "mvn test" - standard run in default configuration (OS - Linux, Browser -Chrome);
-2. Command "mvn test -DplatformAndBrowser=<os>_<browser>" - run with selected not default platform and browser
+2. Command "mvn test -DplatformAndBrowser=os_browser" - run with selected not default platform and browser
 (present 4 variants: linux_chrome, windows_chrome, linux_firefox, windows_firefox) if you set some another value ;
 test suite will fall by exception.
 3. Command "mvn -Dmaven.surefire.debug test" run in default configuration with debugger. Yor IDE
